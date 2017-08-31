@@ -20,3 +20,4 @@
 DEVICE_PACKAGE_OVERLAYS := vendor/samsung/a3xeltexx/overlay
 
 $(call inherit-product, vendor/samsung/a3xeltexx/a3xeltexx-vendor-blobs.mk)
+$(call inherit-product, vendor/samsung/exynos7580-common/exynos7580-common-vendor-blobs.mk)
