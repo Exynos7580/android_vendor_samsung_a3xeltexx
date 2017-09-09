@@ -225,6 +225,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
     $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
     $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.VP9.Decoder.so:system/lib/omx/libOMX.Exynos.VP9.Decoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.VP9.Encoder.so:system/lib/omx/libOMX.Exynos.VP9.Encoder.so \
     $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
     $(LOCAL_PATH)/proprietary/bin/rild:system/bin/rild \
     $(LOCAL_PATH)/proprietary/bin/cbd:system/bin/cbd \
@@ -254,7 +255,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/lib_SoundBooster_ver610.so:system/lib/lib_SoundBooster_ver610.so \
     $(LOCAL_PATH)/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     $(LOCAL_PATH)/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
-    $(LOCAL_PATH)/proprietary/lib/libunshorten.so:ystem/lib/libunshorten.so \
+    $(LOCAL_PATH)/proprietary/lib/libunshorten.so:system/lib/libunshorten.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.universal7580.so:system/lib/hw/sensors.universal7580.so \
     $(LOCAL_PATH)/proprietary/lib/hw/nfc_nci.universal7580.so:system/lib/hw/nfc_nci.universal7580.so \
     $(LOCAL_PATH)/proprietary/lib/hw/audio.primary.universal7580.so:system/lib/hw/audio.primary.universal7580.so: \
