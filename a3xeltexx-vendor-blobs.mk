@@ -35,7 +35,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/vendor/firmware/setfile_5e3.bin:system/vendor/firmware/setfile_5e3.bin \
     $(LOCAL_PATH)/proprietary/lib/libexynosscaler.so:system/lib/libexynosscaler.so \
     $(LOCAL_PATH)/proprietary/lib/libexynosgscaler.so:system/lib/libexynosgscaler.so \
-    $(LOCAL_PATH)/proprietary/lib/libcsc.so:system/lib/libcsc.so \
     $(LOCAL_PATH)/proprietary/lib/libexynosutils.so:system/lib/libexynosutils.so \
     $(LOCAL_PATH)/proprietary/lib/hw/gralloc.exynos5.so:system/lib/hw/gralloc.exynos5.so \
     $(LOCAL_PATH)/proprietary/bin/gpsd:system/bin/gpsd \
