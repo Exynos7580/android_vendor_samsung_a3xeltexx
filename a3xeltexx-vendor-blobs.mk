@@ -267,10 +267,53 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     $(LOCAL_PATH)/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
     $(LOCAL_PATH)/proprietary/lib/libunshorten.so:system/lib/libunshorten.so \
-    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so \
-    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so \
-    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
-    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
-    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so \
-    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so \
-    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so:system/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so:system/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so:system/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so:system/lib/omx/libOMX.Exynos.VP8.Decoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so:system/lib/omx/libOMX.Exynos.VP8.Encoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so:system/lib/omx/libOMX.Exynos.WMV.Decoder.so \
+    $(LOCAL_PATH)/proprietary/lib/libarac.so:system/lib/libarac.so \
+    $(LOCAL_PATH)/proprietary/lib/libsavsac.so:system/lib/libsavsac.so \
+    $(LOCAL_PATH)/proprietary/lib/libsavscmn.so:system/lib/libsavscmn.so \
+    $(LOCAL_PATH)/proprietary/lib/libsavsff.so:system/lib/libsavsff.so \
+    $(LOCAL_PATH)/proprietary/lib/libsavsmeta.so:system/lib/libsavsmeta.so \
+    $(LOCAL_PATH)/proprietary/lib/libsavsvc.so:system/lib/libsavsvc.so \
+    $(LOCAL_PATH)/proprietary/lib/libsnaace.so:system/lib/libsnaace.so \
+    $(LOCAL_PATH)/proprietary/lib/libsnamrnb.so:system/lib/libsnamrnb.so \
+    $(LOCAL_PATH)/proprietary/lib/libsnamrwb.so:system/lib/libsnamrwb.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomx263dsw.so:system/lib/libsomx263dsw.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomx264dsw.so:system/lib/libsomx264dsw.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxaacd.so:system/lib/libsomxaacd.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxaace.so:system/lib/libsomxaace.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxadpcmd.so:system/lib/libsomxadpcmd.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxamrd.so:system/lib/libsomxamrd.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxcmn.so:system/lib/libsomxcmn.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxcore.so:system/lib/libsomxcore.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxevrcd.so:system/lib/libsomxevrcd.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxevrce.so:system/lib/libsomxevrce.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxflacd.so:system/lib/libsomxflacd.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxhevcdsw.so:system/lib/libsomxhevcdsw.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxmp3d.so:system/lib/libsomxmp3d.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxmp43d.so:system/lib/libsomxmp43d.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxmp4vdsw.so:system/lib/libsomxmp4vdsw.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxnaace.so:system/lib/libsomxnaace.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxqcelpd.so:system/lib/libsomxqcelpd.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxqcelpe.so:system/lib/libsomxqcelpe.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxsr263d.so:system/lib/libsomxsr263d.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxvc1dsw.so:system/lib/libsomxvc1dsw.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxvp8d.so:system/lib/libsomxvp8d.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxwmad.so:system/lib/libsomxwmad.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxwmv7d.so:system/lib/libsomxwmv7d.so \
+    $(LOCAL_PATH)/proprietary/lib/libsomxwmv8d.so:system/lib/libsomxwmv8d.so \
+    $(LOCAL_PATH)/proprietary/lib/libsxqk.so:system/lib/libsxqk.so \
+    $(LOCAL_PATH)/proprietary/lib/soundfx/libaudiopreprocessing.so:system/lib/soundfx/libaudiopreprocessing.so \
+    $(LOCAL_PATH)/proprietary/lib/soundfx/libreverbwrapper.so:system/lib/soundfx/libreverbwrapper.so \
+    $(LOCAL_PATH)/proprietary/lib/soundfx/libldnhncr.so:system/lib/soundfx/libldnhncr.so \
+    $(LOCAL_PATH)/proprietary/lib/soundfx/libvisualizer.so:system/lib/soundfx/libvisualizer.so \
+    $(LOCAL_PATH)/proprietary/lib/soundfx/libaudiosaplus_sec.so:system/lib/soundfx/libaudiosaplus_sec.so \
+    $(LOCAL_PATH)/proprietary/lib/soundfx/libbundlewrapper.so:system/lib/soundfx/libbundlewrapper.so \
+    $(LOCAL_PATH)/proprietary/lib/soundfx/libmyspace.so:system/lib/soundfx/libmyspace.so \
+    $(LOCAL_PATH)/proprietary/lib/soundfx/libdownmix.so:system/lib/soundfx/libdownmix.so \
+    $(LOCAL_PATH)/proprietary/lib/soundfx/libeffectproxy.so:system/lib/soundfx/libeffectproxy.so
