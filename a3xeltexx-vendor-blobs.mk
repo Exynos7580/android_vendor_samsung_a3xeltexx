@@ -266,4 +266,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libsecaudioinfo.so:system/lib/libsecaudioinfo.so \
     $(LOCAL_PATH)/proprietary/lib/libtinyalsa.so:system/lib/libtinyalsa.so \
     $(LOCAL_PATH)/proprietary/lib/libtinycompress.so:system/lib/libtinycompress.so \
-    $(LOCAL_PATH)/proprietary/lib/libunshorten.so:system/lib/libunshorten.so
+    $(LOCAL_PATH)/proprietary/lib/libunshorten.so:system/lib/libunshorten.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.AVC.Decoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.AVC.Encoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.MPEG4.Decoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.MPEG4.Encoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.VP8.Decoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.VP8.Encoder.so \
+    $(LOCAL_PATH)/proprietary/lib/omx/libOMX.Exynos.WMV.Decoder.so
