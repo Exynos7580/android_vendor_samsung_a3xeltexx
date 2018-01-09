@@ -152,7 +152,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libsecnativefeature.so:system/lib/libsecnativefeature.so \
     $(LOCAL_PATH)/proprietary/lib/libsec-ril.so:system/lib/libsec-ril.so \
     $(LOCAL_PATH)/proprietary/lib/libsec-ril-dsds.so:system/lib/libsec-ril-dsds.so \
-    $(LOCAL_PATH)/proprietary/lib/libprotobuf-cpp-fl26.so:system/lib/libprotobuf-cpp-fl26.so \
     $(LOCAL_PATH)/proprietary/lib/hw/sensors.universal7580.so:system/lib/hw/sensors.universal7580.so \
     $(LOCAL_PATH)/proprietary/lib/libstagefright_hdcp.so:system/lib/libstagefright_hdcp.so \
     $(LOCAL_PATH)/proprietary/etc/wifi/bcmdhd_apsta.bin:system/etc/wifi/bcmdhd_apsta.bin \
