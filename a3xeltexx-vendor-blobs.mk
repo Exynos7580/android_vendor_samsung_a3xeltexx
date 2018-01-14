@@ -166,3 +166,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libinvensense_hal.so:system/lib/libinvensense_hal.so \
     $(LOCAL_PATH)/proprietary/lib/libmllite.so:system/lib/libmllite.so \
     $(LOCAL_PATH)/proprietary/lib/libmplmpu.so:system/lib/libmplmpu.so \
+    $(LOCAL_PATH)/proprietary/bin/McDriverDaemon:system/bin/McDriverDaemon \
+    $(LOCAL_PATH)/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
+    $(LOCAL_PATH)/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so
