@@ -164,6 +164,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/hw/nfc_nci.universal7580.so:system/lib/hw/nfc_nci.universal7580.so \
     $(LOCAL_PATH)/proprietary/vendor/firmware/sec_s3fwrn5s_firmware.bin:system/vendor/firmware/sec_s3fwrn5s_firmware.bin \
     $(LOCAL_PATH)/proprietary/vendor/lib/libyasalgo.so:system/vendor/lib/libyasalgo.so \
-    $(LOCAL_PATH)/proprietary/bin/McDriverDaemon:system/bin/McDriverDaemon \
+    $(LOCAL_PATH)/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
     $(LOCAL_PATH)/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
     $(LOCAL_PATH)/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so
