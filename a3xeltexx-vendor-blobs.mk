@@ -28,8 +28,6 @@ PRODUCT_COPY_FILES += \
 ##########################
 
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-    $(LOCAL_PATH)/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
     $(LOCAL_PATH)/proprietary/lib/hw/camera.vendor.universal7580.so:system/lib/hw/camera.vendor.universal7580.so \
     $(LOCAL_PATH)/proprietary/lib/libexynoscamera.so:system/lib/libexynoscamera.so \
     $(LOCAL_PATH)/proprietary/vendor/firmware/setfile_3l2.bin:system/vendor/firmware/setfile_3l2.bin \
@@ -64,9 +62,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin:system/app/mcRegistry/ffffffffd0000000000000000000000a.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/ffffffffd00000000000000000000016.tlbin:system/app/mcRegistry/ffffffffd00000000000000000000016.tlbin \
     $(LOCAL_PATH)/proprietary/app/mcRegistry/fffffffff0000000000000000000001e.tlbin:system/app/mcRegistry/fffffffff0000000000000000000001e.tlbin \
-    $(LOCAL_PATH)/proprietary/bin/mcDriverDaemon:system/bin/mcDriverDaemon \
-    $(LOCAL_PATH)/proprietary/lib/libMcClient.so:system/lib/libMcClient.so \
-    $(LOCAL_PATH)/proprietary/lib/libMcRegistry.so:system/lib/libMcRegistry.so
     
 ###########################
 # Sensors
